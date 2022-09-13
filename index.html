@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champagnat Social</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  
+  </head>
+  <body  onload="funcaodata(); funcaonome()">
+  
+
+    </script>
+
+
+    <!-- header starts -->
+    <div class="header">
+      <div class="header__left">
+        <img
+          src="img/notedit/logo1.png"
+          alt=""
+        />
+        <div class="header__input">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Pesquise em ChampagnatSocial" />
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__option active">
+          <span class="material-icons"> home </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> flag </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> subscriptions </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> storefront </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> supervised_user_circle </span>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="header__info">
+          <label class="picture3">
+            <span class="picture__image13">
+              <img src="img/avatar.png" class="picture__img2">
+            </span>
+        </label>
+          <p type="text" id="namealuno" name="myname"></p>
+       
+        </div>
+        <span class="material-icons"> add </span>
+        <span class="material-icons"> forum </span>
+        <span class="material-icons"> notifications_active </span>
+        <span class="material-icons"> expand_more </span>
+      </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- main body starts -->
+    <div class="main__body">
+      <!-- sidebar starts -->
+      <div class="sidebar">
+        <div class="sidebarRow">
+          <label class="picture2" for="picture__input2">
+          <span class="picture__image2">
+            <img src="img/avatar.png" class="picture__img2">
+          </span>
+          </label>
+          
+        <input type="file" name="picture__input2" id="picture__input2">
+      
+    
+        <p type="text" id="name" name="myname" class= "personname"> </p>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> local_hospital </span>
+          <h4>Covid - 19 Information Center</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> emoji_flags </span>
+          <h4>Pages</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> people </span>
+          <h4>People</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> chat </span>
+          <h4>Messenger</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> storefront </span>
+          <h4>Marketplace</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> video_library </span>
+          <h4>Videos</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> expand_more </span>
+          <h4>More</h4>
+        </div>
+      </div>
+      <!-- sidebar ends -->
+
+      <!-- feed starts -->
+      <div class="feed">
+        <div class="storyReel">
+          <!-- story starts -->            
+          <label for="file_input">
+          <div class="story" id="image-area" style="cursor: pointer;">
+          
+          <label class="picture2">
+              <span class="picture__image3">
+                <img src="img/avatar.png" class="picture__img2">
+              </span>
+          </label>
+            <input type="text" id="name" name="myname" placeholder="Story 1">
+
+          </div>
+          </label>
+          <input type="file" id="file_input" onchange="onSelectImage(event)" style="display: none;"/>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <label for="file_input1">
+            <div class="story" id="image-area1" style="cursor: pointer;">
+            
+            <label class="picture2">
+                <span class="picture__image4">
+                  <img src="img/avatar.png" class="picture__img2">
+                </span>
+            </label>
+              <input type="text" id="name" name="myname" placeholder="Story 2">
+  
+            </div>
+            </label>
+            <input type="file" id="file_input1" onchange="onSelectImage1(event)" style="display: none;"/>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <label for="file_input2">
+            <div class="story" id="image-area2" style="cursor: pointer;">
+            
+            <label class="picture2">
+                <span class="picture__image5">
+                  <img src="img/avatar.png" class="picture__img2">
+                </span>
+            </label>
+              <input type="text" id="name" name="myname" placeholder="Story 3">
+  
+            </div>
+            </label>
+            <input type="file" id="file_input2" onchange="onSelectImage2(event)" style="display: none;"/>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <label for="file_input3">
+            <div class="story" id="image-area3" style="cursor: pointer;">
+            
+            <label class="picture2">
+                <span class="picture__image6">
+                  <img src="img/avatar.png" class="picture__img2">
+                </span>
+            </label>
+              <input type="text" id="name" name="myname" placeholder="Story 4">
+  
+            </div>
+            </label>
+            <input type="file" id="file_input3" onchange="onSelectImage3(event)" style="display: none;"/>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <label for="file_input4">
+            <div class="story" id="image-area4" style="cursor: pointer;">
+            
+            <label class="picture2">
+                <span class="picture__image7">
+                  <img src="img/avatar.png" class="picture__img2">
+                </span>
+            </label>
+              <input type="text" id="name" name="myname" placeholder="Story 5">
+  
+            </div>
+            </label>
+            <input type="file" id="file_input4" onchange="onSelectImage4(event)" style="display: none;"/>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <label for="file_input5">
+            <div class="story" id="image-area5" style="cursor: pointer;">
+            
+            <label class="picture2">
+                <span class="picture__image8">
+                  <img src="img/avatar.png" class="picture__img2">
+                </span>
+            </label>
+              <input type="text" id="name" name="myname" placeholder="Story 6">
+  
+            </div>
+            </label>
+            <input type="file" id="file_input5" onchange="onSelectImage5(event)" style="display: none;"/>
+          <!-- story ends -->
+        </div>
+
+        <!-- message sender starts -->
+        <div class="messageSender">
+          <div class="messageSender__top">
+            <label class="picture2">
+              <span class="picture__image9">
+                <img src="img/avatar.png" class="picture__img2">
+              </span>
+          </label>
+            <form>
+              <textarea class="messageSender" name="perfilDescription" rows="4" cols="50" placeholder="Descreva as caracteristicas do seu perfil."></textarea>
+
+            </form>
+          </div>
+
+          <div class="messageSender__bottom">
+            <div class="messageSender__option">
+              <span style="color: red" class="material-icons"> videocam </span>
+              <h3>Live</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: green" class="material-icons"> photo_library </span>
+              <h3>Photo</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: orange" class="material-icons"> insert_emoticon </span>
+              <h3>Feeling</h3>
+            </div>
+          </div>
+        </div>
+        <!-- message sender ends -->
+
+        <!-- post starts  1-->
+        <div class="post">
+          <div class="post__top">
+            <label class="picture2">
+              <span class="picture__image10">
+                <img src="img/avatar.png" class="picture__img2">
+              </span>
+          </label>
+              
+            <div class="post__topInfo">
+              <h2 type="text" id="post1" name="myname" class="personname"></h2>
+              <p class="data"></p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Primeiro post (max 3 linhas)"></textarea>
+          </div>
+
+          <div class="post__image">
+            <label class="picture" for="picture__input">
+              <span class="picture__image">Escolha uma imagem</span>
+            </label>
+            
+            <input type="file" name="picture__input" id="picture__input">
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+           
+          </div>
+         
+         <!-- Comentario--> 
+          <div class="post__comment">
+            <!---->
+            <div class="post__topInfo">
+            <input type="text" id="post1" name="myname" placeholder="Nome do personagem 1">
+            <p class="data"></p>
+            </div>
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 1 (max 3 linhas)"></textarea>
+            <!---->
+            <div class="post__topInfo">
+              <input type="text" id="post1" name="myname" placeholder="Nome do personagem 2">
+              <p class="data"></p>
+              </div>
+              <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 2 (max 3 linhas)"></textarea>
+            <!---->
+            <div class="post__topInfo">
+              <input type="text" id="post1" name="myname" placeholder="Nome do personagem 3">
+              <p class="data"></p>
+              </div>
+              <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 3 (max 3 linhas)"></textarea>
+
+          </div>
+          <!-- End Comentario-->
+          
+ 
+
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts 2-->
+        <div class="post">
+          <div class="post__top">
+            <label class="picture2">
+              <span class="picture__image11">
+                <img src="img/avatar.png" class="picture__img2">
+              </span>
+          </label>
+            <div class="post__topInfo">
+              <h2 type="text" id="post1" name="myname" class="personname"></h2>
+              <p class="data"></p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Segundo post (Max 3 Linhas)"></textarea>
+          </div>
+
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+           
+          </div>
+         
+         <!-- Comentario--> 
+          <div class="post__comment">
+            <!---->
+            <div class="post__topInfo">
+            <input type="text" id="post1" name="myname" placeholder="Nome do personagem 1">
+            <p class="data"></p>
+            </div>
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 1 (max 3 linhas)"></textarea>
+            <!---->
+            <div class="post__topInfo">
+              <input type="text" id="post1" name="myname" placeholder="Nome do personagem 2">
+              <p class="data"></p>
+              </div>
+              <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 2 (max 3 linhas)"></textarea>
+            <!---->
+            <div class="post__topInfo">
+              <input type="text" id="post1" name="myname" placeholder="Nome do personagem 3">
+              <p class="data"></p>
+              </div>
+              <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 3 (max 3 linhas)"></textarea>
+
+          </div>
+          <!-- End Comentario-->
+          
+ 
+
+        </div>
+        <!-- post ends -->
+
+      <!-- post starts  3-->
+      <div class="post">
+        <div class="post__top">
+          <label class="picture2">
+            <span class="picture__image12">
+              <img src="img/avatar.png" class="picture__img2">
+            </span>
+        </label>
+            
+          <div class="post__topInfo">
+            <h2 type="text" id="post1" name="myname" class="personname"></h2>
+            <p class="data"></p>
+          </div>
+        </div>
+
+        <div class="post__bottom">
+          <textarea name="primeiroPost" rows="3" cols="60" placeholder="Terceiro post (max 3 linhas)"></textarea>
+        </div>
+
+        <div class="post__image">
+          <label class="picture" for="picture__input1">
+            <span class="picture__image1">Escolha uma imagem</span>
+          </label>
+          
+          <input type="file" name="picture__input1" id="picture__input1">
+        </div>
+
+        <div class="post__options">
+          <div class="post__option">
+            <span class="material-icons"> thumb_up </span>
+            <p>Like</p>
+          </div>
+
+          <div class="post__option">
+            <span class="material-icons"> chat_bubble_outline </span>
+            <p>Comment</p>
+          </div>
+
+          <div class="post__option">
+            <span class="material-icons"> near_me </span>
+            <p>Share</p>
+          </div>
+         
+        </div>
+       
+       <!-- Comentario--> 
+        <div class="post__comment">
+          <!---->
+          <div class="post__topInfo">
+          <input type="text" id="post1" name="myname" placeholder="Nome do personagem 1">
+          <p class="data"></p>
+          </div>
+          <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 1 (max 3 linhas)"></textarea>
+          <!---->
+          <div class="post__topInfo">
+            <input type="text" id="post1" name="myname" placeholder="Nome do personagem 2">
+            <p class="data"></p>
+            </div>
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 2 (max 3 linhas)"></textarea>
+          <!---->
+          <div class="post__topInfo">
+            <input type="text" id="post1" name="myname" placeholder="Nome do personagem 3">
+            <p class="data"></p>
+            </div>
+            <textarea name="primeiroPost" rows="3" cols="60" placeholder="Comentário Personagem 3 (max 3 linhas)"></textarea>
+
+        </div>
+        <!-- End Comentario-->
+        
+
+
+      </div>
+      <!-- post ends -->
+      </div>
+      <!-- feed ends -->
+
+      <div style="flex: 0.33">
+      </div>
+    </div>
+    <!-- main body ends -->
+  </body>
+  <script src="js/script.js"></script>
+</html>
